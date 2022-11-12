@@ -39,3 +39,59 @@ FastMechanismArchive.asks[e] = f;
 FastMechanismArchive.asks[g] = h;
 
 console.log(FastMechanismArchive);
+
+// 20 урок
+
+if (4==9) {
+    console.log('Ok!');
+}
+
+if (4==4) {
+    console.log('Ok!');
+}
+
+if (4==4) {
+    console.log('Ok!');
+} else {
+    console.log('Error!');
+}
+
+if (4==9) {
+    console.log('Ok!');
+} else {
+    console.log('Error!');
+}
+
+if (4) {
+    console.log('Ok!');
+} else {
+    console.log('Error!');
+}
+
+const num = 50;
+
+// if (num < 49) {
+//     console.log('Error!');
+// } else if (num > 100) {
+//     console.log('много');
+// } else {
+//     console.log('Ok!');
+// }
+
+// (num === 50) ? console.log('Ok!') : console.log('Error!');
+
+
+switch (num) {
+    case 49:
+        console.log('неправильно');
+        break;
+    case 100:
+        console.log('неправильно');
+        break;
+    case 50:
+        console.log('в точку!');
+        break;
+    default:
+        console.log('не в цей раз!');
+        break;
+}
