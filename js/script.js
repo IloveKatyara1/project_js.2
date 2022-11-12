@@ -95,3 +95,29 @@ switch (num) {
         console.log('не в цей раз!');
         break;
 }
+
+// homework
+
+const number = 0;
+
+if (number < 10) {
+    console.log('ти шо далбайоб?');
+} else if (number > 10) {
+    console.log('поменше число блять баран');
+} else {
+    console.log('харош ти не даун');
+}
+
+const abc = 'abc';
+
+switch (abc) {
+    case 'abc':
+        console.log('харош ти не даун не то шо Міша блять');
+        break;
+    case 'adc':
+        console.log('ти шо даун не знаєш алфавіта?');
+        break;
+    case 'cba':
+        console.log('далбайоб наоборот');
+        break;
+}
